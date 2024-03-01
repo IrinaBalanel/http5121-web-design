@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+  font:300 1em/1.2 "Poppins";
+  margin:0;
+}
+
+/*HEADER*/
+#header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1.68em 1.3em;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.25);
+}
+
+#main-nav {
+    display: flex;
+    gap: 4.87em;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#logo {
+    font-weight: 500;
+    font-size: 2em;
+    margin: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*MAIN*/
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75em;
+    align-items: center;
+    height: 100%;
+    max-width:1300px;
+    background:url("../images/macarons.png") center center no-repeat;
+    margin: 0;
+    padding: 9em 18.87em 12.62em 18.87em;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin: 0;
+    line-height: 1.5;
+    max-width: 697px;
+}
+
+.button {
+    background-color: white;
+    color: #AD00FF;
+    border: 5px solid #AD00FF;
+    border-radius: 36px;
+    font-size: 1.25em;
+    font-weight: 500;
+    padding: 1em 3.87em;
+}
+
+/*FOOTER*/
+#footer {
+    background-color: white;
+}
+
+#footer p {
+    margin: 0;
+    padding: 0.81em 1.3em;
+}
+
+/*LINKS*/
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(219, 0, 219);
+}
+
+a:active {
+    color: purple;
+}
