@@ -1,0 +1,40 @@
+
+#flex-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    gap:150px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+#click-button {
+    background-color: rgb(255, 157, 157);
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    width: auto;
+    transition: background-color ease-in-out 1s;
+}
+
+#click-button:hover{
+    background-color:rgb(214, 170, 255);
+    transform: scale(2,3);
+}
+
+
+#shape{
+    background-color: rgb(21, 110, 34);
+    width: 150px;
+    height:150px;
+    margin-top: 100px;
+    
+}
+
+.animated-shape {
+    transition: transform 3s;
+    transform: scale(2) rotate(1440deg);
+}
